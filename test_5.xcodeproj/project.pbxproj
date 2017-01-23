@@ -7,14 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF3B1F8A1E1A7A0100AB9FE4 /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B1F891E1A7A0100AB9FE4 /* Pulsing.swift */; };
+		DF3B1F8C1E1AADB100AB9FE4 /* CircularTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B1F8B1E1AADB100AB9FE4 /* CircularTransition.swift */; };
+		DF49F1551E1D68250080D396 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49F1541E1D68250080D396 /* GameViewController.swift */; };
+		DF49F1571E1D69EC0080D396 /* PongGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF49F1561E1D69EC0080D396 /* PongGame.swift */; };
 		DF4E130E1E15260000BF4FC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E130D1E15260000BF4FC4 /* AppDelegate.swift */; };
 		DF4E13101E15260000BF4FC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E130F1E15260000BF4FC4 /* ViewController.swift */; };
 		DF4E13131E15260000BF4FC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4E13111E15260000BF4FC4 /* Main.storyboard */; };
 		DF4E13151E15260000BF4FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4E13141E15260000BF4FC4 /* Assets.xcassets */; };
 		DF4E13181E15260000BF4FC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4E13161E15260000BF4FC4 /* LaunchScreen.storyboard */; };
+		DF4E13201E1526B600BF4FC4 /* Http.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E131F1E1526B600BF4FC4 /* Http.swift */; };
+		DF4E13221E152E3400BF4FC4 /* ImageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4E13211E152E3400BF4FC4 /* ImageStorage.swift */; };
+		DF51706A1E1FAB1C00BA8578 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5170691E1FAB1C00BA8578 /* StartViewController.swift */; };
+		DF51706C1E1FB57000BA8578 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51706B1E1FB57000BA8578 /* RegisterViewController.swift */; };
+		DF51706E1E1FB7FB00BA8578 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51706D1E1FB7FB00BA8578 /* OnboardingViewController.swift */; };
+		DF5170701E1FD20700BA8578 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF51706F1E1FD20700BA8578 /* Profile.swift */; };
+		DF6A5E371E157C8B00B7E0F8 /* BlurVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6A5E361E157C8B00B7E0F8 /* BlurVC.swift */; };
+		DF7663FB1E17F4A2008C09C0 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7663FA1E17F4A2008C09C0 /* ListViewController.swift */; };
+		DFFE05B91E1AF29600C7D1B1 /* SearchCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFE05B81E1AF29600C7D1B1 /* SearchCriteria.swift */; };
+		DFFE05BB1E1B025600C7D1B1 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFE05BA1E1B025600C7D1B1 /* MovieDetailViewController.swift */; };
+		DFFE05BD1E1B056700C7D1B1 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFE05BC1E1B056700C7D1B1 /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF3B1F891E1A7A0100AB9FE4 /* Pulsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulsing.swift; sourceTree = "<group>"; };
+		DF3B1F8B1E1AADB100AB9FE4 /* CircularTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularTransition.swift; sourceTree = "<group>"; };
+		DF49F1541E1D68250080D396 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DF49F1561E1D69EC0080D396 /* PongGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PongGame.swift; sourceTree = "<group>"; };
 		DF4E130A1E15260000BF4FC4 /* test_5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4E130D1E15260000BF4FC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF4E130F1E15260000BF4FC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +41,17 @@
 		DF4E13141E15260000BF4FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF4E13171E15260000BF4FC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF4E13191E15260000BF4FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4E131F1E1526B600BF4FC4 /* Http.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Http.swift; sourceTree = "<group>"; };
+		DF4E13211E152E3400BF4FC4 /* ImageStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageStorage.swift; sourceTree = "<group>"; };
+		DF5170691E1FAB1C00BA8578 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		DF51706B1E1FB57000BA8578 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DF51706D1E1FB7FB00BA8578 /* OnboardingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		DF51706F1E1FD20700BA8578 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		DF6A5E361E157C8B00B7E0F8 /* BlurVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurVC.swift; sourceTree = "<group>"; };
+		DF7663FA1E17F4A2008C09C0 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		DFFE05B81E1AF29600C7D1B1 /* SearchCriteria.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCriteria.swift; sourceTree = "<group>"; };
+		DFFE05BA1E1B025600C7D1B1 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		DFFE05BC1E1B056700C7D1B1 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +85,26 @@
 			isa = PBXGroup;
 			children = (
 				DF4E130D1E15260000BF4FC4 /* AppDelegate.swift */,
+				DF49F1561E1D69EC0080D396 /* PongGame.swift */,
+				DF6A5E361E157C8B00B7E0F8 /* BlurVC.swift */,
 				DF4E130F1E15260000BF4FC4 /* ViewController.swift */,
+				DF7663FA1E17F4A2008C09C0 /* ListViewController.swift */,
+				DF3B1F8B1E1AADB100AB9FE4 /* CircularTransition.swift */,
+				DFFE05BC1E1B056700C7D1B1 /* Movie.swift */,
+				DF3B1F891E1A7A0100AB9FE4 /* Pulsing.swift */,
+				DFFE05B81E1AF29600C7D1B1 /* SearchCriteria.swift */,
+				DF51706F1E1FD20700BA8578 /* Profile.swift */,
 				DF4E13111E15260000BF4FC4 /* Main.storyboard */,
+				DF51706D1E1FB7FB00BA8578 /* OnboardingViewController.swift */,
+				DF51706B1E1FB57000BA8578 /* RegisterViewController.swift */,
+				DF5170691E1FAB1C00BA8578 /* StartViewController.swift */,
+				DF49F1541E1D68250080D396 /* GameViewController.swift */,
+				DFFE05BA1E1B025600C7D1B1 /* MovieDetailViewController.swift */,
 				DF4E13141E15260000BF4FC4 /* Assets.xcassets */,
 				DF4E13161E15260000BF4FC4 /* LaunchScreen.storyboard */,
 				DF4E13191E15260000BF4FC4 /* Info.plist */,
+				DF4E131F1E1526B600BF4FC4 /* Http.swift */,
+				DF4E13211E152E3400BF4FC4 /* ImageStorage.swift */,
 			);
 			path = test_5;
 			sourceTree = "<group>";
@@ -96,6 +141,7 @@
 				TargetAttributes = {
 					DF4E13091E15260000BF4FC4 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 23ZWLP67B4;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +182,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF5170701E1FD20700BA8578 /* Profile.swift in Sources */,
+				DF3B1F8A1E1A7A0100AB9FE4 /* Pulsing.swift in Sources */,
+				DF51706A1E1FAB1C00BA8578 /* StartViewController.swift in Sources */,
 				DF4E13101E15260000BF4FC4 /* ViewController.swift in Sources */,
+				DF6A5E371E157C8B00B7E0F8 /* BlurVC.swift in Sources */,
+				DF3B1F8C1E1AADB100AB9FE4 /* CircularTransition.swift in Sources */,
+				DF49F1551E1D68250080D396 /* GameViewController.swift in Sources */,
+				DF51706C1E1FB57000BA8578 /* RegisterViewController.swift in Sources */,
+				DF7663FB1E17F4A2008C09C0 /* ListViewController.swift in Sources */,
+				DF49F1571E1D69EC0080D396 /* PongGame.swift in Sources */,
+				DF4E13221E152E3400BF4FC4 /* ImageStorage.swift in Sources */,
+				DFFE05BB1E1B025600C7D1B1 /* MovieDetailViewController.swift in Sources */,
+				DF51706E1E1FB7FB00BA8578 /* OnboardingViewController.swift in Sources */,
+				DFFE05B91E1AF29600C7D1B1 /* SearchCriteria.swift in Sources */,
 				DF4E130E1E15260000BF4FC4 /* AppDelegate.swift in Sources */,
+				DFFE05BD1E1B056700C7D1B1 /* Movie.swift in Sources */,
+				DF4E13201E1526B600BF4FC4 /* Http.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +321,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23ZWLP67B4;
 				INFOPLIST_FILE = test_5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.experteer.test-5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +335,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23ZWLP67B4;
 				INFOPLIST_FILE = test_5/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.experteer.test-5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +364,7 @@
 				DF4E131E1E15260000BF4FC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
